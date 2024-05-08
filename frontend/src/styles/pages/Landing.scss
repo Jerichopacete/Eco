@@ -1,0 +1,52 @@
+.landing {
+  position: relative;
+}
+
+.landing .left {
+  margin: auto;
+  text-align: center;
+}
+
+.landing .logo img {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.landing .title-large {
+  font-size: 3rem; /* Adjust the font size as needed */
+  font-weight: bold;
+  margin-top: 1rem; /* Adjust the margin as needed */
+  color: white; /* Set text color to white */
+}
+
+
+.landing .title-small {
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  margin-top: 0.5rem; /* Adjust the margin as needed */
+  color: white; /* Set text color to white */
+}
+
+
+.landing .button-wrapper {
+  margin-top: 2rem; /* Adjust the margin as needed */
+}
+
+.landing .button-wrapper button {
+  margin: 0 1rem; /* Adjust the margin as needed */
+  padding: 0.5rem 1rem; /* Adjust the padding as needed */
+  font-size: 1rem; /* Adjust the font size as needed */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.landing .button-wrapper button:hover {
+  background-color: #333; /* Adjust the hover color as needed */
+  color: #fff; /* Adjust the hover color as needed */
+}
+
+.landing .button-wrapper .button-black {
+  background-color: black; /* Adjust the button color as needed */
+  color: #fff; /* Adjust the button text color as needed */
+}
